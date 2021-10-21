@@ -1,0 +1,19 @@
+{
+  "name": "tasklist",
+  "version": "1.0.0",
+  "description": "Es una app que vale para todo",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app",
+    "sta": "node app"
+  },
+  "author": "Jorge",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
