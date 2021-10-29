@@ -6,6 +6,7 @@ const app = express();
 //routes
 app.get('/', (req,res) => res.sendFile(path.resolve('public/index.html')));
 app.use(express.static(path.join(__dirname, '/public')));
+//views, ejs
 //app.use('/upload',Upfile);
 //app.use('/download',DownFile);
 //app.use('/dir',DirRouter);
