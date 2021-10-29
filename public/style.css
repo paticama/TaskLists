@@ -29,10 +29,6 @@ body {
     column-gap: 37px;
 }
 
-form {
-    border-radius: 50%;
-}
-
 .grid-column {
     background-color: rgb(256, 256, 256);
     margin: 120px 54px;
@@ -42,34 +38,6 @@ form {
     grid-row-start: 1 ;
     grid-row-end: 3;
     width: max-content;
-}
-
-input {
-    display: block;
-    text-align: right;
-    justify-content: space-around;
-}
-
-.colgar-btn {
-    display: grid;
-    align-items: center;
-    translate: 50%;
-    position: absolute;
-    width: 30px;
-    top: 8%;
-    left: 13.5%;
-    height: 30px;
-    background: #e7e2e2;
-    border: transparent;
-    border-radius: 12px;
-}
-.fa-plus {
-    color: white;
-    font-size: 2rem;
-}
-
-.unidades {
-    display: none;
 }
 
 .grid-item-2 {
