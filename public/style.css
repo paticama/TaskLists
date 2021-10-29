@@ -39,15 +39,32 @@ body {
     grid-row-end: 3;
     width: max-content;
 }
+.hoy label {
+    text-align: center;
+    font-family: 'Segoe UI';
+    font-size: 15pt;
+    font-weight: 600;
+    color: #707070;
+}
+.hoy-tareas { 
+    background-color: white;
+    margin-left: 24px;
+}
 
 .grid-item-2 {
     grid-row-start: 1 ;
-    grid-row-end: 3;
+    grid-row-end: 4;
     width: max-content;
 }
 
 .grid-item-3 {
     grid-row-start: 1 ;
-    grid-row-end: 3;
+    grid-row-end: 4;
+    width: max-content;
+}
+
+.grid-item-4 {
+    grid-row-start: 1 ;
+    grid-row-end: 4;
     width: max-content;
 }
