@@ -12,6 +12,7 @@ body {
     height: 110px;
     background: white;
     font-family: 'Segoe UI';
+    font-weight: bold;
     font-size: 25pt;
     color: #707070;
 }
